@@ -1,5 +1,7 @@
 import csv
 
+
+
 def limpa_dados():
 # Nome do arquivo de entrada
     input_file = 'arquivo_bruto.txt'
@@ -33,6 +35,4 @@ def limpa_dados():
                 values[3] += '1'
 
             writer.writerow(values)
-
-    print(f'Os dados foram convertidos para o arquivo CSV: {output_file}')
 
